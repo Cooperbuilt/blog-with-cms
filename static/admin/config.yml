@@ -1,5 +1,5 @@
 backend:
-  name: cooperbuilt
+  name: github
   branch: cooperbuilt/blog-with-cms
 
 media_folder: "static/media"
