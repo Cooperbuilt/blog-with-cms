@@ -7,9 +7,9 @@ tags:
 description: "This guide takes an in-depth look at tech discoveries as a tool to build trust and confidence within Agile teams. Learn how to make a great Tech Discovery ticket, what your deliverables should be, and more."
 title: A Guide to Technical Discovery
 template: "post"
-slug: "/posts/guide-to-tech-discoveries
+slug: "/posts/guide-to-tech-discoveries"
 date: "2019-07-1"
-category: 'Agile'
+category: "Agile"
 ---
 An agile software team without trust is dead in the water. 
 
