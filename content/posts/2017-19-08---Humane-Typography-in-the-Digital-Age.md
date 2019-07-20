@@ -1,79 +1,179 @@
 ---
-title: Humane Typography in the Digital Age
-date: "2017-08-19T22:40:32.169Z"
-template: "post"
 draft: false
-slug: "/posts/humane-typography-in-the-digital-age/"
-category: "Typography"
 tags:
-  - "Design"
-  - "Typography"
-  - "Web Development"
-description: "An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts."
+  - "Agile"
+  - "Tech Lead"
+  - "Engineering Teams"
+description: "This guide takes an in-depth look at tech discoveries as a tool to build trust and confidence within Agile teams. Learn how to make a great Tech Discovery ticket, what your deliverables should be, and more."
+title: A Guide to Technical Discovery
+template: "post"
+slug: "/posts/guide-to-tech-discoveries
+date: "2019-07-1"
+category: 'Agile'
 ---
+An agile software team without trust is dead in the water. 
 
-- [The first transition](#the-first-transition)
-- [The digital age](#the-digital-age)
-- [Loss of humanity through transitions](#loss-of-humanity-through-transitions)
-- [Chasing perfection](#chasing-perfection)
+Imagine a team receives a high priority story - 
 
-An Essay on Typography by Eric Gill takes the reader back to the year 1930. The year when a conflict between two worlds came to its term. The machines of the industrial world finally took over the handicrafts.
+The product manager is under pressure from stakeholders. They ask for a quick scope to get it into the sprint. The developers aren’t sure how to get it done but, under pressure from the PM, scope it with a best guess. The PM goes back to stakeholders with the estimate and sets a deadline. 
 
-The typography of this industrial age was no longer handcrafted. Mass production and profit became more important. Quantity mattered more than the quality. The books and printed works in general lost a part of its humanity. The typefaces were not produced by craftsmen anymore. It was the machines printing and tying the books together now. The craftsmen had to let go of their craft and became a cog in the process. An extension of the industrial machine.
+The devs soon realize the problem is far harder than they thought. They don’t communicate well. The deadline comes and goes with no deliverables.
 
-But the victory of the industrialism didn’t mean that the craftsmen were completely extinct. The two worlds continued to coexist independently. Each recognising the good in the other — the power of industrialism and the humanity of craftsmanship. This was the second transition that would strip typography of a part of its humanity. We have to go 500 years back in time to meet the first one.
+The PM pressures the devs to get it done the next sprint. The devs resent that, and especially resent the inevitable compromise on quality. The feature goes out but needs fast follows to fix bugs.
 
-## The first transition
+Next story - the devs inflate estimates to protect themselves. The PM creates an imaginary deadline to speed up development. Things get worse. More deadlines miss.
 
-A similar conflict emerged after the invention of the first printing press in Europe. Johannes Gutenberg invented movable type and used it to produce different compositions. His workshop could print up to 240 impressions per hour. Until then, the books were being copied by hand. All the books were handwritten and decorated with hand drawn ornaments and figures. A process of copying a book was long but each book, even a copy, was a work of art.
+The next retrospective feels like a witch hunt - or worse, a silent study hall. Children all over the world cry from the loss of engineering throughput.
 
-The first printed books were, at first, perceived as inferior to the handwritten ones. They were smaller and cheaper to produce. Movable type provided the printers with flexibility that allowed them to print books in languages other than Latin. Gill describes the transition to industrialism as something that people needed and wanted. Something similar happened after the first printed books emerged. People wanted books in a language they understood and they wanted books they could take with them. They were hungry for knowledge and printed books satisfied this hunger.
+Raise your hand if you’ve lived this one before ✋.
 
-![42-line-bible.jpg](/media/42-line-bible.jpg)
+There’s good news, you can fix it.
 
-*The 42–Line Bible, printed by Gutenberg.*
+It’s sort of simple - developers need challenging work with the time to **do it the right way**. Product managers need accurate estimates to **better serve the user**.
 
-But, through this transition, the book lost a large part of its humanity. The machine took over most of the process but craftsmanship was still a part of it. The typefaces were cut manually by the first punch cutters. The paper was made by hand. The illustrations and ornaments were still being hand drawn. These were the remains of the craftsmanship that went almost extinct in the times of Eric Gill.
+The next time the team faces a story without a clear path to completion, don’t scope it based on what you think you know.  
 
-## The digital age
+Build trust with a tech discovery (aka, a spike). 
 
-The first transition took away a large part of humanity from written communication. Industrialisation, the second transition described by Eric Gill, took away most of what was left. But it’s the third transition that stripped it naked. Typefaces are faceless these days. They’re just fonts on our computers. Hardly anyone knows their stories. Hardly anyone cares. Flicking through thousands of typefaces and finding the “right one” is a matter of minutes.
+### What is a Tech Discovery
 
-> In the new computer age the proliferation of typefaces and type manipulations represents a new level of visual pollution threatening our culture. Out of thousands of typefaces, all we need are a few basic ones, and trash the rest.
->
-— Massimo Vignelli
+A time-bound research project that yields a **plan for future work**.
 
-Typography is not about typefaces. It’s not about what looks best, it’s about what feels right. What communicates the message best. Typography, in its essence, is about the message. “Typographical design should perform optically what the speaker creates through voice and gesture of his thoughts.”, as El Lissitzky, a famous Russian typographer, put it.
+>A tech discovery doesn't result in completed work, but documentation, knowledge, and tasks. 
 
-## Loss of humanity through transitions
+A tech discovery is an investment by the Product Manager. You spend feature time right now to help figure out the what, how, and why of future work. From this investment, the team receives deliverables that are:
 
-Each transition took away a part of humanity from written language. Handwritten books being the most humane form and the digital typefaces being the least. Overuse of Helvetica is a good example. Messages are being told in a typeface just because it’s a safe option. It’s always there. Everyone knows it but yet, nobody knows it. Stop someone on the street and ask him what Helvetica is? Ask a designer the same question. Ask him where it came from, when, why and who designed it. Most of them will fail to answer these questions. Most of them used it in their precious projects but they still don’t spot it in the street.
+**Demonstrable** - a presentation, prototype, document, slide deck, etc.
 
-<figure>
-	<blockquote>
-		<p>Knowledge of the quality of a typeface is of the greatest importance for the functional, aesthetic and psychological effect.</p>
-		<footer>
-			<cite>— Josef Mueller-Brockmann</cite>
-		</footer>
-	</blockquote>
-</figure>
+**Actionable** - breaks the story down into small tasks. Each task represents one isolated module of work. 
 
-Typefaces don’t look handmade these days. And that’s all right. They don’t have to. Industrialism took that away from them and we’re fine with it. We’ve traded that part of humanity for a process that produces more books that are easier to read. That can’t be bad. And it isn’t.
+**Estimable** - each task is groomed with well-defined acceptance criteria.
 
-> Humane typography will often be comparatively rough and even uncouth; but while a certain uncouthness does not seriously matter in humane works, uncouthness has no excuse whatever in the productions of the machine.
->
-> — Eric Gill
+### When to Start a Tech Discovery
+1. **Technical Unfamiliarity:** working in a new domain / with a new technology. 
 
-We’ve come close to “perfection” in the last five centuries. The letters are crisp and without rough edges. We print our compositions with high–precision printers on a high quality, machine made paper.
+2. **Oversized Story:** this is a gut thing. If the story feels like more than a few days of engineering work it may need a discovery to break it down.
 
-![type-through-time.jpg](/media/type-through-time.jpg)
+3. **Technical Risk:** the work revolves around critical systems (ex. checkout, payment systems) and the team must minimize impact.
 
-*Type through 5 centuries.*
+4. **Cross-Functional Effort:** Any story that needs a significant effort across more than one person (back-end to front-end, engineer to business stakeholders, team to team etc.). Use a tech discovery to build a communication plan, data contracts, etc. 
 
-We lost a part of ourselves because of this chase after perfection. We forgot about the craftsmanship along the way. And the worst part is that we don’t care. The transition to the digital age made that clear. We choose typefaces like clueless zombies. There’s no meaning in our work. Type sizes, leading, margins… It’s all just a few clicks or lines of code. The message isn’t important anymore. There’s no more “why” behind the “what”.
+### Anatomy of a Tech Discovery “Ticket”
+NOTE: A ticket can mean a lot of different things. I am describing the actual ticket in our project tracker system at Wayfair. Apply this to how you track engineering work where you are. This could mean a ticket in Jira, a Trello card, a post-it-note etc. 
 
-## Chasing perfection
+A tech discovery *ticket* should include:
 
-Human beings aren’t perfect. Perfection is something that will always elude us. There will always be a small part of humanity in everything we do. No matter how small that part, we should make sure that it transcends the limits of the medium. We have to think about the message first. What typeface should we use and why? Does the typeface match the message and what we want to communicate with it? What will be the leading and why? Will there be more typefaces in our design? On what ground will they be combined? What makes our design unique and why? This is the part of humanity that is left in typography. It might be the last part. Are we really going to give it up?
+1. A time limit
+   - This work should not go on forever. Start with a full engineering days as a baseline. Scope this down or up based on iteration and feedback.Well described user experience for all potential changes
+2. Implementation details of current experience and new experience (if applicable)
+   - URLs
+   - Variations
+   - A/B Tests
+   - File names
+   - Site locations (basket, search pages, etc)
+3. Expected deliverables:** 
+    * What does your team need out of this discovery to be most effective. This could include: 
+       1. Tickets
+       * Architecture documentation
+        * Data contracts
+        * Meeting cadences
+        * Contact lists
+        * All the above
 
-*Originally published by [Matej Latin](http://matejlatin.co.uk/) on [Medium](https://medium.com/design-notes/humane-typography-in-the-digital-age-9bd5c16199bd?ref=webdesignernews.com#.lygo82z0x).*
+**All tech discoveries should still result in something demonstrable, estimable, and actionable.
+
+### Tech Discovery Process
+
+How should a developer approach a tech discovery? 
+
+1. Outline the story in “user” terms 
+    - “As a user, I want to be able to schedule my delivery in checkout”
+2. Outline new experience in technical terms
+    - Include what data you will need that don't currently have
+    - Include what functionality you need that you don’t currently have
+3. Research. Methods include:
+    - White-boarding
+    - Meeting with subject matter experts.
+    - Architecture reviews.
+    - The good old google machine.
+4. (if applicable) Prototyping
+    - Build a low-fidelity proof of concept for your chosen direction. 
+
+### Tech Discovery Deliverables
+
+The medium, method, and content of your deliverables depend on your team's needs. There's one constant - 
+
+**They must be  demonstrable, estimable, and actionable, and appropriate for their audience***.
+
+*Appropriate for their audience means understandable. The burden is on you to make your research findings understandable for all audiences. This includes stakeholders and product managers. 
+
+Here are some possibilities:
+
+#### Documentation
+
+You should always include documentation as one of your deliverables. That documentation should cover: 
+
+1. Recommendations for how to get from the current experience to the new experience. If new: how to get from greenfield to the new experience.
+    - What endpoints/data I will need, what UI we may need, data expectations/contracts, tests, etc.
+
+2. Required architecture changes and impact
+3. Asset/Resource requirements 
+4. Do you need work from design, quality assurance, business stakeholders.
+5. Risk expectations for the suggested path to include impact on other teams and users.
+6. Description of work to achieve desired path.
+7. This description should be in the form of small, modular tasks. Each task must have defined acceptance criteria.
+8. Engineering plan.
+    - How we will handle each discrete piece of work.
+    - Determine what work you can parallelize.
+    - Consider a Gantt (or something similar) chart for larger stories but only if asked for. Reserve for only the largest of projects. 
+
+#### Prototype
+
+Consider a prototype if:
+
+1. You learned a new technology.
+2. You need to justify using a new library/tech.
+3. Your project is visual.
+
+This can take whatever form you want. Recently, I’ve been using codesandbox.io to demo frontend related prototypes. Anything that can show a proof of concept works.
+
+NOTE: Don’t strive for clean code or stable solutions here. Your goal is to illuminate a path to completion, not complete the story work. 
+
+### Presentations
+
+Consider a presentation if:
+
+1. You must present your findings to people with varied backgrounds. For example, a mix of developers and business analysts. 
+2. You need to persuade a stakeholder of something. For example, asking Product for more time to build a cleaner solution. 
+
+Try to give the presentation early in the tech discovery. Presentations always bring comments and questions. 
+Use that feedback to hone in your tech discovery even more before the end of the sprint cycle. 
+
+#### Communication Plans
+
+Consider a communication plan if the project needs significant cross-functional work. When you need to work with another team, create a communication plan. 
+
+This may be one of the more important parts of a tech discovery. Not accounting for cross-functional communication overhead is a chronic offender in under-estimating stories. 
+
+**Main things to include**
+
+1. Data contracts between collaborating groups (new endpoints, data shape, timing, etc).
+2. Meeting/check-in cadences with other teams.
+3. Ad-hoc standups, team embeds, etc.
+4. Points of contact and best contact mediums (slack, email, etc)
+
+#### Delivering Trust
+
+We’ve all lived the story at the start of this article. If you haven’t, are you hiring? (kidding). Now you have the power to change it. 
+
+The next time you run into a story that a feels a little too big or a little too vague, reach for a tech discovery. Yes, it can feel like a lot of time...sometimes it can even feel like wasted time. 
+
+It rarely is, though.
+
+Tech discoveries give developers breathing room to research, think, and craft. They give PMs the power to parallelize work and craft solid timelines. 
+
+They build two of the most important resources on an Agile team: 
+
+**confidence and trust.**
+
+
