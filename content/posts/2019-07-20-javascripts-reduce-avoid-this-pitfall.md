@@ -31,7 +31,7 @@ All this flexibility comes from one particular part of the reduce API.
 
 The common example for reduce is almost always taking some array of numbers and reducing it to one number, e.g.
 
-```
+```javascript
 const sum = [1, 2, 3, 4].reduce((accumulator, currentValue) => accumulator + currentValue)
 ```
 
@@ -39,13 +39,13 @@ There's a slight problem, this is almost never how I've actually seen or used re
 
 For example, we receive an array of objects like this: 
 
-```
-const collection = [{id: 1, name: 'Henry Henryson'}, {id: 2, name: "Alice Aliceson"}]
+```javascript
+const collection = [{id: '1AZ', name: 'Henry Henryson'}, {id: '2AZ', name: "Alice Aliceson"}]
 ```
 
 But want to transform it into an object for faster lookups and easier ergonomics. We may do something like this: 
 
-```
+```javascript
 const newCollection = collection.reduce((accumulator, currentValue) => {
     accumulator[currentValue.id] = {...cur}
     return accumulator
@@ -54,10 +54,10 @@ const newCollection = collection.reduce((accumulator, currentValue) => {
 
 This yields us: 
 
-```
+```javascript
 {
- 1: {id: 1, name: 'Henry Henryson'},
- 2: {id: 2, name: "Alice Aliceson"}
+ '1AZ': {id: '1AZ', name: 'Henry Henryson'},
+ '2AZ': {id: '2AZ', name: "Alice Aliceson"}
 }
 ```
 
@@ -67,7 +67,7 @@ So what's the pitfall?
 
 If you've ever googled reduce, likely you've seen something like this:
 
-```
+```javascript
 foo.reduce((accumulator, currentValue) => {
   return [...accumulator, currentValue.bar]
 }, [])
@@ -79,11 +79,11 @@ Looks normal right?
 
 Well it is. But there's a small problem with spreading that accumulator.
 
-The javascript we write isn't always the JS that get's delivered to a client. Often times we are transpiling our JS to work cross-browser. The spread operator is an ES6 feature, and get's transpiled to ensure it works everywhere it could be run.
+The javascript we write isn't always the JS that gets delivered to a client. Often times we are transpiling our JS to work cross-browser. The spread operator is an ES6 feature, and gets transpiled to ensure it works everywhere it could be run.
 
 Let's look at that same reduce code above when run through Babel on the `es2015` aka ES6 preset (using the excellent Babel repl found [here](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015&prettier=true&targets=&version=7.5.5&externalPlugins=%40babel%2Fplugin-transform-react-jsx%407.3.0)).
 
-```
+```javascript
 function _toConsumableArray(arr) {
   return (
     _arrayWithoutHoles(arr) || _iterableToArray(arr) || _nonIterableSpread()
@@ -124,7 +124,7 @@ That's a lot of code.
 
 Now let's make one modification. 
 
-```
+```javascript
 foo.reduce((accumulator, currentValue) => {
   accumulator.push(currentValue.bar)
   return accumulator
@@ -135,7 +135,7 @@ Notice here we aren't spreading the accumulator, but instead are locally mutatin
 
 Let's see the Babel transpilation of that code. 
 
-```
+```javascript
 var foo = [];
 foo.reduce(function(accumulator, currentValue) {
   accumulator.push(currentValue.bar);
@@ -152,6 +152,12 @@ Let's look at some performance stats (check out the perf test [here](https://jsp
 On an array of 10,000 elements, here's how our two versions of reduce performed. 
 
 ![JS bench test showing spreading as the slower option](/media/screen-shot-2019-07-21-at-2.42.29-pm.png "JS bench test")
+
+**reduce with spread:**
+8.10 ops/second.
+
+**reduce without spread:**
+5,192 ops/second.
 
 The only code difference between these two snippets is the spread operator. 
 

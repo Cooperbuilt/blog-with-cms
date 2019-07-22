@@ -108,6 +108,10 @@ strong {
   font-weight: 600;
 }
 
+code {
+  white-space: pre-wrap!important;
+}
+
 ul {
   list-style: square;
   @include margin-bottom(1);
@@ -125,9 +129,10 @@ p {
 }
 
 blockquote {
-  padding: 0;
   font-style: italic;
-  text-align: center;
+  background: #f9f9f9;
+  border-left: 10px solid #ccc;
+  padding: .5em;
 }
 
 figure {
