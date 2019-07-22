@@ -108,6 +108,10 @@ strong {
   font-weight: 600;
 }
 
+code {
+  white-space: pre-wrap!important;
+}
+
 ul {
   list-style: square;
   @include margin-bottom(1);

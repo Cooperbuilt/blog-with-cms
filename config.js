@@ -12,16 +12,16 @@ module.exports = {
   useKatex: false,
   menu: [
     {
-      label: "Articles",
+      label: "All Articles",
       path: "/"
     },
     {
-      label: "About me",
-      path: "/pages/about"
+      label: "Awesome Learning",
+      path: "https://wayfair.github.io/awesome-learning/"
     },
     {
-      label: "Contact me",
-      path: "/pages/contacts"
+      label: "Frontend Testing Workshop",
+      path: "https://codesandbox.io/embed/testing-examples-ejxdx?fontsize=14"
     }
   ],
   author: {
