@@ -64,14 +64,15 @@ NOTE: A ticket can mean a lot of different things. I am describing the actual ti
 A tech discovery *ticket* should include:
 
 1. A time limit
-   - This work should not go on forever. Start with a full engineering days as a baseline. Scope this down or up based on iteration and feedback.Well described user experience for all potential changes
+   - This work should not go on forever. Start with a full engineering days as a baseline. Scope this down or up based on iteration and feedback.
 2. Implementation details of current experience and new experience (if applicable)
    - URLs
    - Variations
    - A/B Tests
    - File names
    - Site locations (basket, search pages, etc)
-3. Expected deliverables:** 
+3. Well described user experience for all potential changes
+4. Expected deliverables:** 
     * What does your team need out of this discovery to be most effective. This could include: 
        1. Tickets
        * Architecture documentation
@@ -113,7 +114,8 @@ Here are some possibilities:
 
 You should always include documentation as one of your deliverables. That documentation should cover: 
 
-1. Recommendations for how to get from the current experience to the new experience. If new: how to get from greenfield to the new experience.
+1. Recommendations for how to get from the current experience to the new experience. 
+    - If new - how to get from greenfield to the new experience.
     - What endpoints/data I will need, what UI we may need, data expectations/contracts, tests, etc.
 
 2. Required architecture changes and impact
@@ -152,6 +154,8 @@ Use that feedback to hone in your tech discovery even more before the end of the
 #### Communication Plans
 
 Consider a communication plan if the project needs significant cross-functional work. When you need to work with another team, create a communication plan. 
+
+Communication plans can be standups, consistent e-mail cadences, slack channels, etc. Whatever medium/frequency you determine necessary for heading off potential issues and making the process as smooth as possible. 
 
 This may be one of the more important parts of a tech discovery. Not accounting for cross-functional communication overhead is a chronic offender in under-estimating stories. 
 
