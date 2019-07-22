@@ -3,10 +3,10 @@
 module.exports = {
   site: {
     siteMetadata: {
-      url: 'http://localhost',
-      title: 'Test title',
-      subtitle: 'Test subtitle',
-      copyright: 'Test copyright',
+      url: 'cooperbuilt.tech',
+      title: 'Blog by Evan Cooper',
+      subtitle: 'A blog about front-end, agile, and other things',
+      copyright: '© Evan Cooper - All rights reserved.',
       disqusShortname: '',
       postsPerPage: 4,
       menu: [
@@ -24,16 +24,12 @@ module.exports = {
         }
       ],
       author: {
-        name: 'Test name',
-        photo: '/test.jpg',
-        bio: 'Test bio',
+        name: 'Evan Cooper',
+        photo: '/logo.png',
+        bio: "My name is Evan Cooper. I'm a Senior Frontend Engineer at Wayfair, former Sergeant in the U.S Army Infantry, and co-creator of Awesome Learning™.",
         contacts: {
-          email: '#',
-          telegram: '#',
-          twitter: '#',
-          github: '#',
-          rss: '#',
-          vkontakte: '#'
+          github: 'cooperbuilt',
+          linkedin: 'builtbycooper'
         }
       }
     }
