@@ -1,6 +1,6 @@
 ---
 template: post
-title: 'Javascript''s Reduce: Avoid This Pitfall'
+title: 'Javascript''s Reduce: Avoid This Performance Pitfall'
 slug: one-pitfall-of-reduce
 draft: false
 date: 2019-07-20T16:13:45.594Z
@@ -18,7 +18,7 @@ Reduce is a powerful functional array method. The transformations and choices yo
 Consider the following
 
 * You may change the number of elements in the final collection like filter, but it's optional.
-* You may change the TYPE of element returned, but it's optional.
+* You may change the type of elements returned, but it's optional.
 * You may change the shape of elements like map, but it's optional.
 
 All this flexibility comes from one particular part of the reduce API.
@@ -47,7 +47,7 @@ But want to transform it into an object for faster lookups and easier ergonomics
 
 ```javascript
 const newCollection = collection.reduce((accumulator, currentValue) => {
-    accumulator[currentValue.id] = {...cur}
+    accumulator[currentValue.id] = {...currentValue}
     return accumulator
 }, {})
 ```
@@ -145,6 +145,8 @@ foo.reduce(function(accumulator, currentValue) {
 
 Thats a lot _less_ code. 
 
+It's important to note, the lines of code aren't really a factor. This extra spread code likely only appears once in your JS bundle no matter how many times you use it. That being said, it is _run_ every time you use the spread operator in your reduce. That's the part that can cost you. 
+
 ## So What
 
 Let's look at some performance stats (check out the perf test [here](https://jsperf.com/reduce-with-and-without-spread-operator)).
@@ -178,4 +180,3 @@ This article is not about mutable vs immutable, but it's worth mentioning briefl
 1. Spreading the accumulator in reduce results in a far slower execution speed than mutating the accumulator. 
 2. This likely doesn't matter at all when your collections are small.
 3. This definitely can matter when your collections are large.
-4. Make sure to look at your transpiled JS (use the [Babel Repl](https://babeljs.io/repl#?babili=false&browsers=&build=&builtIns=false&spec=false&loose=false&code_lz=Q&debug=false&forceAllTransforms=false&shippedProposals=false&circleciRepo=&evaluate=true&fileSize=false&timeTravel=false&sourceType=module&lineWrap=true&presets=es2015&prettier=true&targets=&version=7.5.5&externalPlugins=%40babel%2Fplugin-transform-react-jsx%407.3.0)) to find potential code bloat.
