@@ -4,19 +4,22 @@ title: Soft Skills of a Senior Engineer
 slug: senior-engineer-soft-skills
 draft: false
 date: 2019-10-01T14:53:11.412Z
-description: >-
-  **NOTE**: This is a compressed version of the excellent source article found
-  [here](https://www.google.com/url?q=https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/&amp;sa=D&amp;ust=1569945282607000)
+description: >
+  The "senior" title for software engineers comes with some controversies. What
+  makes one engineer "senior", and another "mid". I think the majority of the
+  difference isn't technical, it's in the soft skills.
 
 
-  I've added a few things here and there, but all of the credit goes to the
-  excellent Kitchen Soap blog owner.
+  I took a long-form article called "Being a senior engineer" by the wonderful
+  Kitchen Soap blog and distilled it to include my experiences and thoughts.
 category: education
 tags:
   - education
   - leadership
   - engineering
 ---
+**NOTE**: This is a compressed version of the excellent source article found [here](https://www.google.com/url?q=https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/&amp;sa=D&amp;ust=1569945282607000)
+
 ## <span>Seek out Constructive Criticism of Your Work</span><span>.</span>
 
 <span class="c9">Nothing is sacred, everything can be improved, ask your peers:</span>
