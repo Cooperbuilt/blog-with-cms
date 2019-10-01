@@ -6,9 +6,8 @@ draft: false
 date: 2019-10-01T14:53:11.412Z
 description: >-
   ** NOTE **: This is a compressed version of the excellent source article found
-  <a
-  href="https://www.google.com/url?q=https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/&amp;sa=D&amp;ust=1569945282607000"
-  target="__blank" rel=”noopener” rel=”noreferrer”>here</a> 
+  at
+  https://www.google.com/url?q=https://www.kitchensoap.com/2012/10/25/on-being-a-senior-engineer/&amp;sa=D&amp;ust=1569945282607000
 
 
   I've added a few things here and there, but all of the credit goes to the
