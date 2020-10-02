@@ -190,6 +190,6 @@ In this section, node will check if `'./components/button/index.js'` exists. **I
 
 ## A Quick Roundup
 
-Importing a directory works if there is an `index.js` file located within that directory with an export defined. Using this pattern gives you some great flexibility in how you structure the directories and file names of your project. 
+Importing a directory works if there is an `index.js` file located within that directory with an export defined. 
 
 Knowing how this magic works gives you the power to leverage it willingly. For example, structuring your project to only use directory imports (`import Button from './components/button` instead of `import Button from './components/button/button.js`) means the underlying component names and file structure can change as much as necessary without blowing up all your import statements.
