@@ -54,7 +54,7 @@ it("works with promises", () => {
 
 In the above examples, we see a few basic foundational elements:
 
-### `test/it` function
+### test/it function
 
 **TL;DR**
 The `test` function takes a test as a callback function, evaluates that callback, and signals either success or failure.
@@ -62,7 +62,7 @@ The `test` function takes a test as a callback function, evaluates that callback
 **Longer Form Description**
 This function has two parameters - a string describing the test and a callback containing any number of _assertions_. Assertions are another word for the `expect something to equal something else` that we have seen in many forms in different testing frameworks. The test function evaluates the callback which either succeeds or fails. For the most part this is all handled in the same way - your framework aggregates successes and failures and outputs a console message with those successes and failures.
 
-### `expect` function
+### expect function
 
 **TL;DR** the expect function is the assertion you are making about your code. In human readable terms,
 
@@ -75,7 +75,7 @@ The expect function rarely exists by itself. Expect functions work in conjunctio
 
 The expect function evaluates the argument, then based on the matcher used (toBe, toEqual, etc), makes some sort of comparison to the argument passed to the matcher, and either succeeds or fails that comparison. That success or failure response is bubbled up to the wrapping `test` or `it` function.
 
-### `matchers`
+### matchers
 
 **TL;DR** Matchers define how you want to test an expected value. Do you want a strict boolean (===) comparison? Do you want a loose comparison? Do you want to check if a value is `undefined`?
 
@@ -99,14 +99,10 @@ From that, we can assume some acceptance criteria:
 
 ### Writing matchers
 
----
-
 Requirements:
 
 1. Provide a `toBe` function that compares with strict equality standards
 2. Provide a `toEqual` function that accurately compares two values and returns true if they are equal regardless of type
-
----
 
 `if they are equal regardless of type` => If this seems like a logical leap to you, especially the "regardless of type" part, that's because it is. Matching can get quite complicated.
 
@@ -151,15 +147,11 @@ This comparison will only fail for arrays with the same items, but different ord
 
 ### Writing `expect`
 
----
-
 Function requirements:
 
 1. Takes a value
 2. Returns an object of matchers
 3. Each matcher returns true or false
-
----
 
 Let's break down `expect(multiply(2,11)).toBe(22)`
 
@@ -200,15 +192,11 @@ function expect(initialValue) {
 
 ### Writing `test/it`
 
----
-
 Function requirements:
 
 1. Takes a string title and a function callback
 2. if the callback evaluates to true, return a success message with the title
 3. If the callback evaluates to false, return a failure message with the title
-
----
 
 In our simple testing framework, we can do the following:
 
