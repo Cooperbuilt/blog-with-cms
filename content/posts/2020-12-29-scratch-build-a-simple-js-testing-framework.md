@@ -127,13 +127,13 @@ If we did that though, we wouldn't be able to compare arrays or objects, which c
 
 Using JSON.stringify gives us a way to handle a bunch of cases:
 
-1. Shallow objects
-2. 1D arrays
+1. Objects
+2. Arrays
 3. Almost all of the cases that toBe handles.
 
-However, if we ONLY use JSON.stringify, we will run into comparison issues for things like toEqualMatcher(1, '1'); 
+However, if we only use JSON.stringify, we will run into comparison issues for things like toEqualMatcher(1, '1'); 
 
-To handle loose equality checks and arrays and objects, we can add a loose equality check first, followed by a JSON.stringify approach. This covers most of our bases.
+To handle loose equality checks and arrays/ objects, we can add a loose equality check first, followed by a JSON.stringify approach. This covers most of our bases.
 
 Here's one take: 
 ```js
