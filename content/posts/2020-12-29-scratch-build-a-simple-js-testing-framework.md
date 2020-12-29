@@ -145,7 +145,7 @@ function toEqualMatcher(value, expected) {
 **NOTE**
 This comparison will only fail for arrays with the same items, but different orderings. You can pre-sort the arrays before use if that fits your use-case. 
 
-### Writing `expect`
+### Writing expect
 
 Function requirements:
 
@@ -190,7 +190,7 @@ function expect(initialValue) {
 }
 ```
 
-### Writing `test/it`
+### Writing test/it
 
 Function requirements:
 
