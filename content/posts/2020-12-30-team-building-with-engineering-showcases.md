@@ -16,7 +16,7 @@ If you run an engineering team, no matter how busy you are, you can save money b
 1. Developers are curious people - keep them happy by feeding that curiosity
 2. Happy people stay longer 🤯
 
-I'm a technical lead of an engineering team at a large organization (>1000 engineers). I oversee the work of 6 engineers directly and many more indirectly. I work with resource strapped teams across the org struggling through common problems. We know them well - throughput, efficiency, and developer retention.
+I'm a technical lead of an engineering team at a large organization (>1000 engineers). I oversee the work of 5 engineers directly and many more indirectly. I work with resource strapped teams across the org struggling through common problems. We know them well - throughput, efficiency, and developer retention.
 
 In many of these teams, I see the same issues. They start small and strong. As they develop chemistry and achieve success, they attract attention. That attention and success leads to ambitious roadmaps.
 
