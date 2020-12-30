@@ -1,12 +1,12 @@
 ---
 template: post
-title: Team Building With Engineering Showcases
-slug: team-building-with-engineering-showcases
+title: 'Waste Time, Save Money With Paid Learning Time'
+slug: team-building-with-dedicated-learning-time
 draft: false
 date: 2020-12-30T12:06:28.019Z
 description: >-
-  Take a look at one of the ways we build a strong engineering culture -
-  Engineering Showcases. 
+  Build a stronger and more curious engineering team with dedicated learning
+  time. We call it the "Learn and Teach" ticket. 
 category: Team Building
 tags:
   - team building
