@@ -16,13 +16,13 @@ If you run an engineering team, no matter how busy you are, you can save money b
 1. Developers are curious people - keep them happy by feeding that curiosity
 2. Happy people stay longer 🤯
 
-I'm a technical lead of an engineering team at a large organization (>1000 engineers). I oversee the work of 5 engineers directly and many more indirectly. I work with resource strapped teams across the org struggling through common problems. We know them well - throughput, efficiency, and developer retention.
+I'm a technical lead of an engineering team at a large organization (>1000 engineers). I work with resource strapped teams across the org struggling through common problems. We know them well - throughput, efficiency, and developer retention.
 
-In many of these teams, I see the same issues. They start small and strong. As they develop chemistry and achieve success, they attract attention. That attention and success leads to ambitious roadmaps.
+In many of these teams, I see the same issues. They start small and strong. As they develop chemistry and achieve success, they attract attention. That attention and success lead to ambitious roadmaps.
 
 To deliver, they focus on throughput above all else. They hire more engineers. They lose the identity and connection that made them successful in the first place. They work more and more on maintenance rather than new features.
 
-Talented engineers get bored or frustrated (or both) and leave. All that systems knowledge and investment walks out the door and the team is worse off because of it.
+Talented engineers get bored or frustrated (or both) and leave. All that systems knowledge and skill walks out the door and the team is worse off because of it.
 
 There is no way to avoid some of that. Teams have to grow. Roadmaps have to scale. Greenfield work must always convert to maintenance.
 
@@ -50,6 +50,7 @@ Bored developers leave.
 The Learn and Teach program gives engineers the chance to research and investigate something they find interesting, but never had the time to look into. In short - it gives them permission to play.
 
 Some of our recent Learn and Teaches were:
+
 1. **CSS Art.** The presentation was a slide deck followed by an awesome coding challenge to draw a turtle with only css
 2. **Docker Containers.** The presentation was an interactive game where docker containers were "characters" that we each controlled to fight a common enemy.
 
@@ -61,7 +62,7 @@ By the end of each of our Learn and Teach sprints, our developers always express
 
 It may seem like an impossible luxury to throw away so much engineering time.
 
-*It is.* So is taking developer happiness and retention for granted. 
+_It is._ So is taking developer happiness and retention for granted. 
 
 When you have a good team, do everything in your power to keep it together and to keep your engineers happy. **Good teams build good products, happy teams stay together.** If this learn and teach keeps even one engineer on board for longer, it's worth it. 
 
