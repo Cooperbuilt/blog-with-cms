@@ -3,10 +3,12 @@
 
 .contacts {
   @include margin-bottom(1);
-
+  display: flex;
+  justify-content: center;
   &__list {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
     flex-grow: 0;
     flex-shrink: 0;
     list-style: none;
