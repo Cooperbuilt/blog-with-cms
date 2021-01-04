@@ -8,7 +8,7 @@ description: >-
   Have you ever seen an import statement where a file name is never specified?
   Something like Import Button from './components/button'. This is importing a
   directory, and yet it works? Let's figure out why.
-category: JavaScript
+category: Deep Dive
 tags:
   - JavaScript
   - Deep Dive

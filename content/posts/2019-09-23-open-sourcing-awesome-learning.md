@@ -8,7 +8,7 @@ description: >-
   Awesome Learning is a Frontend focused learning platform. We built this at
   Wayfair to help our fellow engineers learn Javascript in a group setting, and
   we open-sourced so everyone has a chance to learn. 
-category: education
+category: Storytime
 tags:
   - education
 ---

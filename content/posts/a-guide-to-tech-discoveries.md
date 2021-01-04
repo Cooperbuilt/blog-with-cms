@@ -9,7 +9,7 @@ title: A Guide to Technical Discovery
 template: "post"
 slug: "/posts/guide-to-tech-discoveries"
 date: "2019-07-1"
-category: "Agile"
+category: "Team Building"
 ---
 An agile software team without trust is dead in the water. 
 

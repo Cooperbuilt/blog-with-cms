@@ -5,7 +5,7 @@ slug: scratch-built-js-testing-framework
 draft: false
 date: 2020-12-29T13:42:58.941Z
 description: A practical guide to writing a simple JS testing framework in 22 lines of code
-category: Javascript
+category: Tutorial
 tags:
   - Javascript
   - Education

@@ -8,7 +8,7 @@ description: >-
   Reduce is a powerful tool in the Javascript developer tool belt but it's not
   perfect. We look at one common thing many developers do in their reduce
   methods that could potentially cost you. 
-category: Javascript Array Methods
+category: Deep Dive
 tags:
   - Javascript Fundamentals
   - Javascript Array Methods

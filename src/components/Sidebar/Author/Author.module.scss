@@ -3,7 +3,10 @@
 
 .author {
   &__photo {
-    display: inline-block;
+    display: none;
+    @include breakpoint-sm {
+      display: inline-block;
+    }
   }
 
   &__title {
@@ -26,8 +29,7 @@
 
   &__subtitle {
     color: $color-gray;
-    @include line-height(1);
-    @include margin-bottom(1)
   }
 
+  
 }

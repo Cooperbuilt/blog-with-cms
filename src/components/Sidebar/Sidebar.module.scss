@@ -8,7 +8,9 @@
     text-align: center;
     &__inner {
         position: relative;
-        padding: 25px 20px 0;
+        padding: 0 20px;
+       border-top: 1px solid $color-gray-border;
+       margin: 0 20px;
     }
 }
 
@@ -17,6 +19,7 @@
         lost-column: 5/12;
         &__inner {
             padding: 30px 20px 0;
+            border-top: none;
             &:after {
                 background: $color-gray-border;
                 background: linear-gradient(to bottom, $color-gray-border 0%, $color-gray-border 48%, $color-white 100%);

@@ -5,7 +5,7 @@ slug: why-frontend-dev-sucks
 draft: false
 date: 2021-01-01T02:29:11.371Z
 description: 'A quick (and somewhat sarcastic) post about why Frontend development sucks. '
-category: Confessional
+category: Storytime
 tags:
   - Storytime
 ---

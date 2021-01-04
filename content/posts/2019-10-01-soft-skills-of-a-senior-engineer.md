@@ -12,7 +12,7 @@ description: >
 
   I took a long-form article called "Being a senior engineer" by the wonderful
   Kitchen Soap blog and distilled it to include my experiences and thoughts.
-category: education
+category: Team Building
 tags:
   - education
   - leadership
