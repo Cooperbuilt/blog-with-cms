@@ -2,7 +2,7 @@
 template: post
 title: 'Puppeteer, Cron Jobs, and You'
 slug: run-puppeteer-cronjob
-draft: true
+draft: false
 date: 2021-01-02T02:18:54.839Z
 description: >-
   A quick guide on how to run a puppeteer script in a cron job without doing a
