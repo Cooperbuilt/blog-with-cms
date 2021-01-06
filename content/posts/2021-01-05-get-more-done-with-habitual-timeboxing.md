@@ -5,14 +5,14 @@ slug: habitual-timeboxing
 draft: false
 date: 2021-01-06T00:52:58.702Z
 description: >-
-  Timeboxing is the process of defining a time box (a discreet period of time)
-  in which a defined activity takes place. Habitual timeboxing is creating a
-  habit out of this technique to supercharge your productivity. 
+  Timeboxing is the process of doing one specific activity over a short, defined
+  period of time. Habitual timeboxing is creating a habit out of this technique
+  to supercharge your productivity. 
 category: Productivity
 tags:
   - productivity
 ---
-We all struggle to get more done. We all feel scattered all the time. At my company, we call it "stretched too thin". Im sure it has many names. In short, you feel like you aren't getting done what you need to get done. There are just too many irons in the fire and you can't possible get to them all.
+We all struggle to get more done. We all feel scattered all the time. At my company, we call it "stretched too thin". Im sure it has many names. In short, you feel like you aren't getting done what you need to get done. There are just too many irons in the fire and you can't possibly get to them all.
 
 One way to alleviate this feeling is to guarantee you spend at least some time every day on each of your responsibilities. 
 
