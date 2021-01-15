@@ -22,7 +22,7 @@ Reviews are never a surprise. We generally know when they will start. We know wh
 
 Let's talk about why this should change. 
 
-## Companies aren't designed to care about you
+## Companies aren't designed to throw money at you
 
 This isn't an anti-corporate America headline, it's a fact. Companies, at least publicly traded ones, have a fiduciary responsibility to their shareholders to operate on the leanest budget possible. Most aren't actively trying to screw you or anything like that, but they definitely aren't in the business of throwing money at people that don't take the time to sell themselves. 
 
