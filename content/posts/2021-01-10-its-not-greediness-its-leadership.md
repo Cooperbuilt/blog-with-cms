@@ -39,17 +39,7 @@ Sure, you may be in the rare and privileged position of being so good that your 
 
 ## The power of compounding interest
 
-> Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it.
->
-> \
->
->
->
->
-> \
->
->
-> Albert Einstein
+> "Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it." - Albert Einstein
 
 It seems obvious that we should want more money. Many of us are content to wait for it though. We don't spend enough time wiring our reviews because we are too busy, or life is too stressful. We don't track our achievements throughout the cycle because it's too much of a time investment. Next thing you know, because of that lack of effort, you lose an entire cycle. That may be 6 months or it may be a year. 
 
