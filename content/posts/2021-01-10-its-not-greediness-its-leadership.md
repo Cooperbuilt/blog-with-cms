@@ -29,11 +29,11 @@ Let's talk about why this should change.
 
 This isn't an anti corporate-America headline, it's a fact. Companies, at least publicly traded ones, have a fiduciary responsibility to their shareholders to operate on the leanest budget possible. Most aren't actively trying to screw you or anything like that, but they definitely aren't in the business of throwing money at people that don't take the time to sell themselves. 
 
-They will reward the high performers that do a great job of framing their accomplishments within the paradigms of the company's competencies. They will keep the status quo for the rest. It's up to you to upset that applecart.
+They will reward the high performers that do a great job of framing their accomplishments within the paradigms of the company's competencies. They will keep the status quo for the rest.
 
-## Managers aren't positioned to care more than you
+## Managers aren't in a position to care more about you than you
 
-I've had the great blessing of an excellent manager that cares about my career growth for more than 3 years now. Even with such a blessing, my manager can't pull a rabbit out of a hat. With my best interest at heart, he still needs me to deliver enough source material in my reviews to fight for money and promotions for me. 
+I've had the great blessing of an excellent manager that cares about my career growth for more than 3 years now. Even with such a blessing, my manager can't pull a rabbit out of a hat. With my best interest at heart, he still needs me to deliver enough source material in my reviews to fight for money and promotions on my behalf. 
 
 Sure, you may be in the rare and privileged position of being so good that your manager fights for you no matter what you put in that performance review. This isn't likely. For the most part, they're holding on for dear life to get through reviews with their x+1 direct reports and need you to to do 95% of the work so they can polish it with that last 5%.
 
@@ -41,11 +41,11 @@ Sure, you may be in the rare and privileged position of being so good that your 
 
 > "Compound interest is the eighth wonder of the world. He who understands it, earns it ... he who doesn't ... pays it." - Albert Einstein
 
-It seems obvious that we should want more money. Many of us are content to wait for it though. We don't spend enough time wiring our reviews because we are too busy, or life is too stressful. We don't track our achievements throughout the cycle because it's too much of a time investment. Next thing you know, because of that lack of effort, you lose an entire cycle. That may be 6 months or it may be a year. 
+It seems obvious that we should want more money. Many of us are content to wait for it though. We don't spend enough time writing our reviews because we are too busy, or life is too stressful. We don't track our achievements throughout the cycle because it's too much of a time investment. Next thing you know, because of that lack of effort, you lose an entire cycle. That may be 6 months or it may be a year. 
 
-Every dime you miss out on compounds over that time. Not literally (unless you invest, in which case nice work!) but figuratively. The earlier in your career you can garner wage increases, the more you are worth at each subsequent review interval. A 3% raise at the 6 month mark, followed by another 3% raise at the 1.5 year mark is significantly more money than one 3% raise at the year mark. On a $100,000 salary, thats the difference of more than 3K. 
+Every dime you miss out on compounds over that time. Not literally (unless you invest, in which case nice work!) but figuratively. The earlier in your career you can garner wage increases, the more you are worth at each subsequent review interval. A 3% raise at the 6 month mark, followed by another 3% raise at the 1.5 year mark is significantly more money than one 3% raise at the year mark. On a $50,000 salary, thats the difference of more than 1.5K. 
 
-Fight for your money early and often and Albert Einstein will think you're a total smartypants. 
+ Fight for your money early and often and Albert Einstein will think you're a total smartypants. 
 
 ## Growth is hard-wired in our DNA
 
