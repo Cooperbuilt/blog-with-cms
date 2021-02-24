@@ -1,7 +1,7 @@
 ---
 template: post
-title: Retro Yourself - A Case for Daily Reviews
-slug: conduct-daily-retros
+title: A How-To Guide to Continuous Improvement
+slug: how-to-continuously-improve
 draft: true
 date: 2021-02-23T02:06:00.710Z
 description: >-
@@ -26,30 +26,52 @@ I know I want to be 37x better than I am now. That sounds awesome.
 
 But continuous improvement is hard. Habits are hard. What do I even improve?
 
-The secret to unlocking this daily continuous improvement is observation. 
+Let's break down a multi-step approach you can follow to bring continuous improvement to your daily routine. 
 
 ### A quick story of failure.
 
-I'll speak for myself here. When I hear about these improvement techniques, I tend to run at them full-force. With continuous improvement, I did the same. I made a list of all the things I wanted to improve (it was long) and carried it around with me. I did my best to be better at every one of them.
+I have a history with things like this. When I hear about these improvement techniques, I tend to run at them full-force. With continuous improvement, I did the same. I made a list of all the things I wanted to improve (it was long) and carried it around with me. I did my best to be better at every one of them.
 
 It didn't last, and it took me a while to figure out why.
 
-I wasn't working on the right things. I actually still haven't figured out exactly what the right things are either. That's O.K. 
+Looking back, I fell into a few traps: 
 
-I went back to the drawing board and asked myself a question. How could I approach continuous improvement from first principles? 
+1. I wasn't working on the right things that aligned with what I really wanted.
+2. I over-reached for my improvements, making them feel impossible.
+3. I didn't build a strong daily-review habit before I started trying continuous improvement. 
+
+I went back to the drawing board and asked myself a question. How could I approach continuous improvement in a way that would make it last. 
+
+I decided to break down a few principles to guide my next attempt.
 
 ### Starting from the Basics
-To improve is to advance towards a desired goal in some way. Without the goal in mind, changing habits or behaviors isn't technically improvement, it's movement (there's a big difference in a few letters there).
+To improve is to advance towards a desired goal in some way. Without a goal in mind, changing habits or behaviors isn't technically improvement, it's movement (there's a big difference in a few letters there).
 
-**Our first principle of continuous improvement must then be clearly defined goals.**
+If you are working on things you don't truly care about, you will fall off the wagon or worse, sink time into a goal you don't actually want to hit. 
+
+This brings us to our first principle of continuous improvement: 
+
+**Clearly define your goals**
 
 Improvement connotes measurement. It's an implicit truth in the word improvement that we have a measurement of our current ability in a thing, and we note an increase in that ability. 
 
-**Our second principle of continuous improvement must then be an accurate measure of our current ability to execute on our defined goals**
+This is key for perseverance. One great downfall of habits is a lack of measurables. We can't prove to ourselves long-term that the effort we are exerting is paying off. Without this feedback loop, we fail. 
 
-Finally, in order to improve you must have some framework or understanding of the things that make up a successful embodiment of the goal you are striving for. This is critical. Defining a paragon of your goal gives you the chance to deconstruct what it is they do, and derive behaviors / activities / skills to work on to improve towards your goal. 
+To measure, we need a baseline. We need an honest assessment of where we are in relation to our goals. This should include all of our strengths and potential improvement areas. 
 
-**Our third principle of continuous improvement must then be a definition of what success looks like, and a breakdown of the behaviors / abilities / knowledge etc that make up that success**
+This brings us to our second principle of continuous improvement:
+
+**Accurately measure our current ability to execute on our defined goals**
+
+In order to improve you must have some framework or understanding what "better" looks like. Defining a paragon of success gives you the chance to derive behaviors / activities / skills to work on to improve towards your goal. 
+
+This brings us to our third principle: 
+
+**Define what success looks like, and break down the behaviors / abilities / knowledge etc that make up that success**
+
+Finally, things need to be manageable. If your goal is to be better at coding and you tell yourself you will write code for 2 hours a day in your off-time, you will likely fail. It's too much of a commitment. 
+
+Continuous improvement needs to be attainable, small changes or we will eventually be buried under the burden of keeping up with it. 
 
 ### How to Get Started
 We have three things to figure out: our goals, our current ability level in each goal, and what makes up success in each goal.
