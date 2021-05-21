@@ -2,7 +2,7 @@
 template: post
 title: 'Strive For Practice, Not Perfection'
 slug: strive-for-practice-not-perfection
-draft: true
+draft: false
 date: 2021-03-01T12:19:02.155Z
 description: >-
   Rockstar engineers have a way of appearing larger than life. They produce more
